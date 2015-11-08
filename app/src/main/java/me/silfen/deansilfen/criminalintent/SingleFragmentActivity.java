@@ -14,7 +14,7 @@ public abstract class SingleFragmentActivity extends FragmentActivity {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_fragment);
+        setContentView(R.layout.fragment_crime);
         FragmentManager fm = getSupportFragmentManager();
         Fragment fragment  = fm.findFragmentById(R.id.fragmentContainer);
 
